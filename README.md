@@ -2,6 +2,8 @@
 
 ## Introduction
 
+<p align="center"><img src="https://www.nsnam.org/assets/img/ns-3-notext.png" width="200"/></p>
+
 GSoC was my first programming experience outside personal projects and I thoroughly enjoyed the experience. I had an awesome opportunity to work for the ns-3 organization. My mentors [abhijithanilkumar](https://github.com/abhijithanilkumar/), [mishalshah](https://github.com/mishal23) and [adeepkit01](https://github.com/adeepkit01) were extremely responsive, helpful, and understanding. I would also like to thank [tomh](http://www.tomh.org/) sir - the ns-3 Organization Admin for help and suggestions.
 
 ## Project outline
@@ -23,20 +25,22 @@ This contains the work done during various phases and links docs/commits/merge r
 
 - [Doc](https://docs.google.com/document/d/1uw0aHN7BF-H9fR14gna_A-NMiEsdYxQQAfZ3s9YY5a0/edit?usp=sharing) : Database migration for ns-3 AppStore from SQLite to Mysql/Postgres.
 - Participated in the coding sprint and following merge requests are made :
-    - [#64](https://gitlab.com/nsnam/ns-3-AppStore/-/merge_requests/63) : Changed 'Link to tutorial' to 'Documentation Link'.
-    - [#64](https://gitlab.com/nsnam/ns-3-AppStore/-/merge_requests/64) : Added user option to change password.
-    - [#65](https://gitlab.com/nsnam/ns-3-AppStore/-/merge_requests/65) : Password-reset email's username and subject formatting improved.
+  - [#64](https://gitlab.com/nsnam/ns-3-AppStore/-/merge_requests/63) : Changed 'Link to tutorial' to 'Documentation Link'.
+  - [#64](https://gitlab.com/nsnam/ns-3-AppStore/-/merge_requests/64) : Added user option to change password.
+  - [#65](https://gitlab.com/nsnam/ns-3-AppStore/-/merge_requests/65) : Password-reset email's username and subject formatting improved.
 - Reviewed existing dependencies for outdated and non-supported ones. Following merge requests were made to update the outdated dependencies :
-    - [Doc](https://docs.google.com/document/d/1ylSdZ7zTM4MlSBqSHaik244cZsj_2nkffqPtxHMiQwc/edit?usp=sharing) Document showing dependency review.
-    - [#66](https://gitlab.com/nsnam/ns-3-AppStore/-/merge_requests/66) : Removed django-admin-bootstrap.
-    - [#67](https://gitlab.com/nsnam/ns-3-AppStore/-/merge_requests/67) : Django-environ replaced with python-dotenv.
+  - [Doc](https://docs.google.com/document/d/1ylSdZ7zTM4MlSBqSHaik244cZsj_2nkffqPtxHMiQwc/edit?usp=sharing) Document showing dependency review.
+  - [#66](https://gitlab.com/nsnam/ns-3-AppStore/-/merge_requests/66) : Removed django-admin-bootstrap.
+  - [#67](https://gitlab.com/nsnam/ns-3-AppStore/-/merge_requests/67) : Django-environ replaced with python-dotenv.
 
 ### Phase 1
 
-- [Commit](https://gitlab.com/shivamanipatil/ns-3-AppStore/-/commit/db059501e9537233da4f1294deb9d9039908df1d) :  The Build model to store information about the build info for an app/module was created and test for the Build model was also added.
+- [Commit](https://gitlab.com/shivamanipatil/ns-3-AppStore/-/commit/db059501e9537233da4f1294deb9d9039908df1d) : The Build model to store information about the build info for an app/module was created and test for the Build model was also added.
 - Installed Jenkins on the local machine. Read Jenkins documentation about pipeline building and its terminologies. Explored bake for fetching and building ns-3/modules/forks.
 - [Commit](https://gitlab.com/nsnam/ns-3-AppStore/-/commit/6c7c6a55bbe99dc952d920e2148106a8a096552b?merge_request_iid=69) : Added bash scripts which are used by Jenkins pipelines.
+
 ### Phase 2
+
 - [Commit](https://gitlab.com/nsnam/ns-3-AppStore/-/commit/c39770666c14686b916880ad938a90a77d8987e1?merge_request_iid=69) : Functions to call Jenkins builds from appstore for all pipelines added.
 - [Commit](https://gitlab.com/nsnam/ns-3-AppStore/-/commit/cb5637253f89e97497005eb62d41b025030f7d4a?merge_request_iid=69) : REST API to update the build model object from Jenkins added.
 - [Commit](https://gitlab.com/nsnam/ns-3-AppStore/-/commit/bc93eff4c6302dc76664105599a707f4be11ca8d?merge_request_iid=69) : Added aborted and building statuses and changed date field to date-time.
@@ -50,10 +54,10 @@ This contains the work done during various phases and links docs/commits/merge r
 
 ### Phase 3
 
-- [Commit](https://gitlab.com/nsnam/ns-3-AppStore/-/commit/acfc4911043e3378d2173f0eea6bdd8343bf44ec?merge_request_iid=69) : Code refactoring. Comments/docstrings were added and unnecessary lines were removed.  
+- [Commit](https://gitlab.com/nsnam/ns-3-AppStore/-/commit/acfc4911043e3378d2173f0eea6bdd8343bf44ec?merge_request_iid=69) : Code refactoring. Comments/docstrings were added and unnecessary lines were removed.
 - [Commit](https://gitlab.com/nsnam/ns-3-AppStore/-/commit/cef258add2b8204d4208f13c258e970bff0e3cae?merge_request_iid=69) : Jenkins environment variables were made to load from settings.
 - [Commit](https://gitlab.com/nsnam/ns-3-AppStore/-/commit/2329f1d6b64a07e85ac666d07bd932b3f59298a5?merge_request_iid=69) : Exception handling for Jenkins build functions using try/except while covering corner cases.
-- [Commit](https://gitlab.com/nsnam/ns-3-AppStore/-/commit/1a4934bc5880d4315d1e457379f45e04a9b6cb7c?merge_request_iid=69) :  Static files for build templates were added and apps/tests.py was formated with pep8.
+- [Commit](https://gitlab.com/nsnam/ns-3-AppStore/-/commit/1a4934bc5880d4315d1e457379f45e04a9b6cb7c?merge_request_iid=69) : Static files for build templates were added and apps/tests.py was formated with pep8.
 - [Commit](https://gitlab.com/nsnam/ns-3-AppStore/-/commit/96e0887e9d972d1e9648d35193460e400174b483?merge_request_iid=69) : Made Release model and forms enforce combined unique constraint for app and version name.
 - [Commit](https://gitlab.com/nsnam/ns-3-AppStore/-/commit/437d3ff46bb615e421d1212becd5e874a087de50?merge_request_iid=69) : REST API for Jenkins to call build on all releases using ns-3 dev.
 - [Commit](https://gitlab.com/nsnam/ns-3-AppStore/-/commit/6e46b1587ff4a176a38e2d11c4b65c1822d46eb7?merge_request_iid=69) : Jenkinsfile's for all the pipelines were added.
@@ -70,5 +74,10 @@ This contains the work done during various phases and links docs/commits/merge r
 
 ### Future Work
 
-- Outstanding issues can be solved.
-- 
+- Pipeline can be updated to handle more scenarios.
+- Outstanding issues int the appstore can be solved.
+- CI/CD pipelines can be refactored.
+
+### Conclusion
+
+I want to thank all the people who motivated and helped me. I got to learn a lot during GSoC and couldn't have worked on more fulfulling and exiciting project. I will continue to contribute to open source and ns-3 in future.
