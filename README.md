@@ -1,10 +1,14 @@
 # GSoC-2020-Report
 
-## Introduction
+
+
 
 <p align="center"><img src="https://www.nsnam.org/assets/img/ns-3-notext.png" width="200"/></p>
 
-GSoC was my first programming experience outside personal projects and I thoroughly enjoyed the experience. I had an awesome opportunity to work for the ns-3 organization. My mentors [abhijithanilkumar](https://github.com/abhijithanilkumar/), [mishalshah](https://github.com/mishal23) and [adeepkit01](https://github.com/adeepkit01) were extremely responsive, helpful, and understanding. I would also like to thank [tomh](http://www.tomh.org/) sir - the ns-3 Organization Admin for help and suggestions.
+## Introduction
+
+
+GSoC was my first programming experience outside personal projects and I thoroughly enjoyed the experience. I had an awesome opportunity to work for the ns-3 organization. My mentors [abhijithanilkumar](https://github.com/abhijithanilkumar/), [mishalshah](https://github.com/mishal23) and [adeepkit01](https://github.com/adeepkit01) were extremely responsive, helpful, and understanding. I would also like to thank [tomh](http://www.tomh.org/) sir - the ns-3 Organization Admin for his help and suggestions.
 
 ## Project outline
 
@@ -65,19 +69,19 @@ This contains the work done during various phases and links docs/commits/merge r
 - [Commit](https://gitlab.com/nsnam/ns-3-AppStore/-/commit/b142b7a891776cca704590cabbc58896004205f3?merge_request_iid=69) : README doc for setting the Jenkins pipeline.
 - All the pipelines and configurations were recreated on the deployed Jenkins server and tested with a dev appstore server.
 
-### Other Miscellaneous Documents
+## Other Miscellaneous Documents
 
 - [Wiki : Weekly updates](https://www.nsnam.org/wiki/GSOC2020AppStore) : Weekly updates regarding the work.
 - [Phase 1 Document](https://docs.google.com/document/d/1ekx4xlLK6KDj9TnFTpxVFp_7RelAYe7JvzX-Y5RRfhA/edit?usp=sharing) : Document explaining the work done during phase 1.
 - [Work Guidelines](https://docs.google.com/document/d/19xdtI-qfJmVoJJK-JN88jyNBQAyrkBvfuM_nTfdSh_s/edit?usp=sharing) : Document explaining the scenarios supported by the Jenkins pipelines.
 - [Phase 2 Document](https://docs.google.com/document/d/1KofTOsiA0I_HQFSQ_zc-iK2gdN2QRyYFoRiuG2GkIh4/edit?usp=sharing) : Document explaining the work done during phase 2.
 
-### Future Work
+## Future Work
 
 - Pipeline can be updated to handle more scenarios.
 - Outstanding issues int the appstore can be solved.
 - CI/CD pipelines can be refactored.
 
-### Conclusion
+## Conclusion
 
 I want to thank all the people who motivated and helped me. I got to learn a lot during GSoC and couldn't have worked on more fulfulling and exiciting project. I will continue to contribute to open source and ns-3 in future.
