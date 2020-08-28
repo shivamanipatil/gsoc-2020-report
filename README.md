@@ -2,11 +2,11 @@
 
 ## Introduction
 
-GSoC was my first programming experience outside personal projects and I thoroughly enjoyed the experience. I had an awesome opportunity to work for the ns-3 organization. My mentors [abhijithanilkumar](https://github.com/abhijithanilkumar/), [mishalshah](https://github.com/mishal23) and [adeepkit01](https://github.com/adeepkit01) were extremely responsive, helpful, and understanding. I would also like to thank [tomh](http://www.tomh.org/) sir - the ns-3 Organization Admin for his help and suggestions.
+During my GSoC, I worked on **App Store improvements** project for **ns-3** organization. GSoC was my first programming experience outside personal projects and I thoroughly enjoyed the experience. I had an awesome opportunity to work for the ns-3 organization. My mentors [abhijithanilkumar](https://github.com/abhijithanilkumar/), [mishalshah](https://github.com/mishal23) and [adeepkit01](https://github.com/adeepkit01) were extremely responsive, helpful, and understanding. I would also like to thank [tomh](http://www.tomh.org/) sir - the ns-3 Organization Admin for his help and suggestions.
 
 ## Project outline
 
-**Project Goals** : To develop a Jenkins server and add necessary updates to ns-3 AppStore to check on-demand if available, uploaded or updated apps/modules/forks to AppStore build and pass tests successfully for the given ns-3 versions and display that information on AppStore.
+**Project Goals** : To develop a Jenkins server and add necessary updates to ns-3 AppStore to check on-demand if available, uploaded or updated apps/modules/forks to AppStore build and pass tests successfully for the given ns-3 versions and display that information on AppStore. And to improve the AppStore by addressing the existing issues.
 
 The project was completed in following phases :
 
