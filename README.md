@@ -1,9 +1,9 @@
-# GSoC-2020-Report
+# GSoC 2020 Report
 
 
 
 
-<p align="center"><img src="https://www.nsnam.org/assets/img/ns-3-notext.png" width="200"/></p>
+<img src="https://www.nsnam.org/assets/img/ns-3-notext.png" width="200"/>
 
 ## Introduction
 
@@ -23,7 +23,7 @@ The project was completed in following phases :
 
 ## Work done
 
-This contains the work done during various phases and links docs/commits/merge requests generated.
+This contains the work done during various phases and links to docs/commits/merge requests generated.
 
 ### Community bonding
 
