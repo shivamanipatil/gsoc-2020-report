@@ -1,12 +1,6 @@
 # GSoC 2020 Report
 
-
-
-
-<img src="https://www.nsnam.org/assets/img/ns-3-notext.png" width="200"/>
-
 ## Introduction
-
 
 GSoC was my first programming experience outside personal projects and I thoroughly enjoyed the experience. I had an awesome opportunity to work for the ns-3 organization. My mentors [abhijithanilkumar](https://github.com/abhijithanilkumar/), [mishalshah](https://github.com/mishal23) and [adeepkit01](https://github.com/adeepkit01) were extremely responsive, helpful, and understanding. I would also like to thank [tomh](http://www.tomh.org/) sir - the ns-3 Organization Admin for his help and suggestions.
 
