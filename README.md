@@ -61,7 +61,10 @@ This contains the work done during various phases and links to docs/commits/merg
 - [Commit](https://gitlab.com/nsnam/ns-3-AppStore/-/commit/6e46b1587ff4a176a38e2d11c4b65c1822d46eb7?merge_request_iid=69) : Jenkinsfile's for all the pipelines were added.
 - [Commit](https://gitlab.com/nsnam/ns-3-AppStore/-/commit/bbf603f40ccbae743296f72d6d03fd114dc43a42?merge_request_iid=69), [Commit](https://gitlab.com/nsnam/ns-3-AppStore/-/commit/d8563d60a1b790706def92b1b9073885417bae05?merge_request_iid=69) : Minor fixes.
 - [Commit](https://gitlab.com/nsnam/ns-3-AppStore/-/commit/b142b7a891776cca704590cabbc58896004205f3?merge_request_iid=69) : README doc for setting the Jenkins pipeline.
+- [Contributing guide](https://gitlab.com/shivamanipatil/ns-3-dev-fork/-/blob/new-docs/doc/contributing/source/app-store.rst) : Contributing guide for the AppStore - [hosted page link](https://shivamanipatil.github.io/contributing/build/html/app-store.html)  
+- [Installation guide](https://gitlab.com/shivamanipatil/ns-3-dev-fork/-/blob/new-docs/doc/installation/source/app-store.rst) : Installation guide for the AppStore - [hosted page link](https://shivamanipatil.github.io/installation/build/html/app-store.html)
 - All the pipelines and configurations were recreated on the deployed Jenkins server and tested with a dev appstore server.
+
 
 ## Other Miscellaneous Documents
 
