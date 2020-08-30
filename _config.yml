@@ -12,5 +12,6 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
-
+title: GSoC 20 - App Store improvements
+description: The work document for my GSoC project for ns-3.
 theme: jekyll-theme-cayman
